@@ -34,7 +34,7 @@ class Room
         return "Valume Totaal =" . $this->volume . "m3";
     } // loop maken zodat het bij elkaar op telt
 
-}
+} // ik begrijp het niet
 
 
 ?>
