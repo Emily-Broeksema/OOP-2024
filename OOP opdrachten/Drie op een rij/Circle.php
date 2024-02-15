@@ -18,7 +18,6 @@ class Circle {
     }
 }
 
-// Usage:
 $circle = new Circle("black", 50);
 echo $circle->draw();
 

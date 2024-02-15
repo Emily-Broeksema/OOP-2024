@@ -12,7 +12,6 @@ class Rectangle {
     }
 
     public function draw() {
-        // Draw rectangle as a string representation
         $output = '<svg width="' . ($this->width + 10) . '" height="' . ($this->height + 10) . '">';
         $output .= '<rect x="5" y="5" width="' . $this->width . '" height="' . $this->height . '" style="fill: green; stroke: black; stroke-width: 2" />';
         $output .= '</svg>';
@@ -21,7 +20,6 @@ class Rectangle {
     }
 }
 
-// Usage:
 $rectangle = new Rectangle("green", 50, 150);
 echo $rectangle->draw();
 
